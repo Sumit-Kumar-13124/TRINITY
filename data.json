@@ -1,0 +1,312 @@
+[
+    {
+        "name": "Physics",
+        "branches": [
+            {
+                "name": "Classical Mechanics",
+                "sub": "The architecture of motion - trajectories, interactions, and real-world dynamics",
+                "units": [
+                    {
+                        "name": "Fundamentals",
+                        "sub": "Setting the stage - the language of space and time",
+                        "chapters": [
+                            "Units and Measurements",
+                            "Physical Mathematics",
+                            "Kinematics"
+                        ]
+                    },
+                    {
+                        "name": "Particle Mechanics",
+                        "sub": "Defining the rules - the physics of push, pull, and rhythm",
+                        "chapters": [
+                            "Newton's Laws of Motion",
+                            "Work, Power and Energy",
+                            "Circular Motion",
+                            "Vibrational Mechanics"
+                        ]
+                    },
+                    {
+                        "name": "Extended Body Mechanics",
+                        "sub": "Scaling to reality - the chaos of shape, spin, and mass",
+                        "chapters": [
+                            "System of Particles",
+                            "Rigid Body Dynamics",
+                            "Gravitation",
+                            "Bulk Properties of Matter"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Electromagnetism",
+                "sub": "Invisible engines - static fields, flowing charge, and dynamic induction",
+                "units": [
+                    {
+                        "name": "Electrostatics",
+                        "sub": "Awakening the force - the invisible web of stationary charges",
+                        "chapters": [
+                            "Electric Charges and Fields and Gauss's Law",
+                            "Electrostatic Potential and Capacitance"
+                        ]
+                    },
+                    {
+                        "name": "Electrodynamics and Magnetism",
+                        "sub": "Harnessing the flow - the mechanics of circuits and magnetic pulls",
+                        "chapters": [
+                            "Current Electricity",
+                            "Moving Charges and Magnetism",
+                            "Magnetism and Matter"
+                        ]
+                    },
+                    {
+                        "name": "Electromagnetic Synthesis",
+                        "sub": "Bridging the divide - the dance of changing fields and alternating currents",
+                        "chapters": [
+                            "Electromagnetic Induction",
+                            "Alternating Current",
+                            "Electromagnetic Waves"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Energetics",
+                "sub": "The engine of reality - heat, light, and the quantum realm",
+                "units": [
+                    {
+                        "name": "Thermal Physics",
+                        "sub": "Tracking the chaos - the inevitable flow of heat and entropy",
+                        "chapters": [
+                            "Thermal Properties of Matter",
+                            "Thermodynamics",
+                            "Kinetic Theory of Gases"
+                        ]
+                    },
+                    {
+                        "name": "Optics",
+                        "sub": "Illuminating the void - the bending, bouncing, and interference of light",
+                        "chapters": [
+                            "Ray Optics and Optical Instruments",
+                            "Wave Optics"
+                        ]
+                    },
+                    {
+                        "name": "Modern Physics",
+                        "sub": "Breaking the limits - the quantum weirdness of atoms and nuclei",
+                        "chapters": [
+                            "Dual Nature of Radiation and Matter",
+                            "Atoms",
+                            "Nuclei",
+                            "Semiconductor Electronics"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Chemistry",
+        "branches": [
+            {
+                "name": "Physical Chemistry",
+                "sub": "The mechanics of matter - energy, rates, and ratios",
+                "units": [
+                    {
+                        "name": "Foundations of Matter",
+                        "sub": "The grammar of chemistry - atoms, moles, and states",
+                        "chapters": [
+                            "Some Basic Concepts of Chemistry",
+                            "Structure of Atom",
+                            "States of Matter",
+                            "Redox Reactions"
+                        ]
+                    },
+                    {
+                        "name": "Chemical Dynamics",
+                        "sub": "The driving forces - energy flow and equilibrium",
+                        "chapters": [
+                            "Thermodynamics",
+                            "Chemical Equilibrium",
+                            "Ionic Equilibrium"
+                        ]
+                    },
+                    {
+                        "name": "Solutions and Interfaces",
+                        "sub": "Matter in action - mixing, moving, and reacting",
+                        "chapters": [
+                            "Solutions",
+                            "Electrochemistry",
+                            "Chemical Kinetics",
+                            "Surface Chemistry",
+                            "Solid State"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Organic Chemistry",
+                "sub": "The carbon architecture - molecular skeletons, reactive transformations, and biological complexity",
+                "units": [
+                    {
+                        "name": "Structural Fundamentals",
+                        "sub": "Decoding the code - bonding, shape, and mechanism",
+                        "chapters": [
+                            "General Organic Chemistry (GOC)",
+                            "Isomerism",
+                            "Purification and Characterization"
+                        ]
+                    },
+                    {
+                        "name": "Functional Group Transformations",
+                        "sub": "The toolkit - synthesizing and modifying molecules",
+                        "chapters": [
+                            "Hydrocarbons",
+                            "Haloalkanes and Haloarenes",
+                            "Alcohols, Phenols and Ethers",
+                            "Aldehydes, Ketones and Carboxylic Acids",
+                            "Amines"
+                        ]
+                    },
+                    {
+                        "name": "Applied Organic Chemistry",
+                        "sub": "Life and materials - the molecules of biology and industry",
+                        "chapters": [
+                            "Biomolecules",
+                            "Polymers",
+                            "Chemistry in Everyday Life"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Inorganic Chemistry",
+                "sub": "The periodic code - atomic patterns, chemical families, and complex geometries",
+                "units": [
+                    {
+                        "name": "Periodic Foundations",
+                        "sub": "The hidden logic - trends and bonding architectures",
+                        "chapters": [
+                            "Classification of Elements and Periodicity",
+                            "Chemical Bonding and Molecular Structure"
+                        ]
+                    },
+                    {
+                        "name": "Elemental Families",
+                        "sub": "Navigating the table - the personalities of the blocks",
+                        "chapters": [
+                            "Hydrogen",
+                            "s-Block Elements",
+                            "p-Block Elements",
+                            "d- and f-Block Elements"
+                        ]
+                    },
+                    {
+                        "name": "Complex Architectures",
+                        "sub": "Metal mastery - coordination and extraction",
+                        "chapters": [
+                            "Coordination Compounds",
+                            "General Principles and Processes of Isolation of Metals",
+                            "Environmental Chemistry"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mathematics",
+        "branches": [
+            {
+                "name": "Algebra",
+                "sub": "The logic of the unknown - puzzles, patterns, and proofs",
+                "units": [
+                    {
+                        "name": "Number Systems & Structures",
+                        "sub": "Building blocks - solvers, sequences, and series",
+                        "chapters": [
+                            "Complex Numbers and Quadratic Equations",
+                            "Sequences and Series",
+                            "Binomial Theorem"
+                        ]
+                    },
+                    {
+                        "name": "Data & Probability",
+                        "sub": "Predicting the future - counting, chance, and matrices",
+                        "chapters": [
+                            "Permutations and Combinations",
+                            "Probability",
+                            "Matrices and Determinants"
+                        ]
+                    },
+                    {
+                        "name": "Mathematical Logic",
+                        "sub": "The rules of reason - sets and relations",
+                        "chapters": [
+                            "Sets, Relations and Functions",
+                            "Mathematical Reasoning",
+                            "Mathematical Induction"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Geometry",
+                "sub": "The blueprint of space - shapes, vectors, and dimensions",
+                "units": [
+                    {
+                        "name": "Planar Geometry",
+                        "sub": "Mapping the plane - lines, curves, and conics",
+                        "chapters": [
+                            "Straight Lines",
+                            "Circle",
+                            "Conic Sections"
+                        ]
+                    },
+                    {
+                        "name": "Vector Algebra",
+                        "sub": "Directed quantities - magnitude and direction",
+                        "chapters": [
+                            "Vector Algebra"
+                        ]
+                    },
+                    {
+                        "name": "Spatial Geometry",
+                        "sub": "Beyond the page - planes and lines in 3d",
+                        "chapters": [
+                            "Three Dimensional Geometry"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Calculus",
+                "sub": "The anatomy of change - instantaneous rates, infinite accumulation, and dynamic evolution",
+                "units": [
+                    {
+                        "name": "Differential Calculus",
+                        "sub": "The microscope of math - limits and rates of change",
+                        "chapters": [
+                            "Limits, Continuity and Differentiability",
+                            "Applications of Derivatives"
+                        ]
+                    },
+                    {
+                        "name": "Integral Calculus",
+                        "sub": "The accumulator - summing infinitesimals and areas",
+                        "chapters": [
+                            "Integrals",
+                            "Applications of the Integrals"
+                        ]
+                    },
+                    {
+                        "name": "Differential Equations",
+                        "sub": "Modeling evolution - solving for dynamic systems",
+                        "chapters": [
+                            "Differential Equations"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

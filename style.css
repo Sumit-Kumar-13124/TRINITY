@@ -1,0 +1,395 @@
+/* Universal Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+@font-face {
+    font-family: 'Header';
+    src: url('assets/fonts/ChakraPetch-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Content';
+    src: url('assets/fonts/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+
+.nav_el:hover, .c_box:hover, .section{
+    cursor: pointer;
+}
+
+/* Header stuff */
+
+#header{
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 7.5%;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 5px 10px -5px rgba(220, 220, 220);
+    padding: 0% 10%;
+    z-index: 1000;
+    background-color: white;
+}
+
+#title{
+    display: block;
+    position: absolute;
+    height: 100%;
+    font-family: 'Header';
+    font-size: 2.15rem;
+    letter-spacing: -1.5px;
+
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+}
+
+#nav_bar{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    left: 20%;
+}
+
+.nav_el{
+    display: inline;
+    opacity: 0.5;
+    height: 100%;
+    position: relative;
+    top: 35%;
+    margin-right: 2.5%;
+    font-size: 0.955rem;
+    padding-bottom: 19px;
+    border-bottom: solid 0px #888;
+    transition: border-bottom-width, 0.1s;
+}
+
+.nav_ico{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    top: 2px;
+    margin-right: 0.5%;
+}
+
+.nav_text{
+    font-family: 'Content';
+    display: inline;
+}
+
+/* Main Content */
+
+#main{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 92.5%;
+    top: 15vh;
+    padding: 0% 10%;
+    padding-bottom: 5%;
+}
+
+/* Branches */
+
+.b_title{
+    font-family: 'Content';
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.b_sub, .u_sub{
+    font-family: 'Content';
+    font-size: 0.95rem;
+    font-weight: 400;
+    margin-top: 0.75%;
+    margin-bottom: 5%;
+    color: #666;
+}
+
+/* Units */
+
+.unit{
+    display: block;
+    height: 15vh;
+}
+
+.unit > div {
+    display: inline-block;
+    margin-right: 3.333%;
+}
+
+.u_illust{
+    display: inline-block;
+    width: 7.5%;
+    position: relative;
+    left: 2.5vw;
+}
+
+.u_title{
+    font-family: 'Content';
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 700;
+    bottom: 4.25vh;
+    left: 5vw;
+}
+
+.u_sub{
+    position: relative;
+    bottom: 4.35vh;
+    left: 5vw;
+}
+
+.line{
+    display: block;
+    width: 100%;
+    height: 0.5px;
+    background-color: #ddd;
+    margin-bottom: 5%;
+}
+
+.uc{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    margin-bottom: 5vh;
+    padding: 3% 2.5%;
+}
+
+/* Chapters */
+
+.chapter{
+    display: inline-block;
+    margin-right: calc(1% - 2px);
+}
+
+.c_box{
+    width: 11.5vw;
+    height: 11.5vw;
+    border-radius: 20px;
+    border: solid #dedede 2px;
+    background-color: white;
+    box-shadow: 0 4px 0px #ddd;
+    margin-bottom: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_box:hover{
+    box-shadow: 0 4px 0px #aaa;
+    border-color: #aaa;
+    transition: all 0.1s ease-out;
+}
+
+.c_title{
+    font-family: 'Content';
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-align: center;
+    max-width: 11vw;
+}
+
+.c_illust{
+    width: 7.5vw;
+}
+
+/* Chapter Page */
+
+#chpt{
+    display: none;
+    width: 100%;
+    padding: 0% 17.5%;
+    height: auto;
+}
+
+/* Chapter Box */
+
+#cb{
+    padding: 10px 20px;
+    display: block;
+    width: 30vw;
+    height: 38vh;
+    border: #eee solid 2.5px;
+    border-radius: 20px;
+    position: relative;
+    top: 15vh;
+}
+
+#cb > div{
+    width: 100%;
+    position: relative;
+}
+
+#ci > img{
+    width: 30%;
+    position: relative;
+    display: block;
+    left: -12px;
+    top: -3px;
+}
+
+#ct{
+    font-family: 'Content';
+    font-size: 1.5rem;
+    font-weight: 700;
+    top: 0vh;
+    margin-bottom: 25px;
+}
+
+#cs{
+    font-family: 'Content';
+    font-size: 0.95rem;
+    font-weight: 400;
+    margin-top: 0.75%;
+    margin-bottom: 5%;
+    color: #666;
+}
+
+#cn{
+    display: flex;
+    flex-direction: row;
+}
+
+.num{
+    display: flex;
+    flex-direction: row;
+    font-family: Content;
+    gap: 1vh;
+    margin-right: 3vh;
+}
+
+/* Sections */
+
+#sec{
+    position: relative;
+    top: 20vh;
+    padding-bottom: 4vh;
+}
+
+.section{
+    display: flex;
+    width: 30vw;
+    height: 10vh;
+    border: #eee solid 2.5px;
+    border-radius: 15px;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2vh;
+    transition: all 0.1s;
+    box-shadow: 0 4px 0px #ddd;
+}
+
+.section:hover{
+    border-color: #888;
+    box-shadow: 0 4px 0px #888;
+}
+
+.section:first-child{
+    border-color: #888;
+    box-shadow: 0 0px 0px #888;
+    transform: translateY(4px);
+}
+
+.s_i{
+    width: 10vh;
+    position: relative;
+    left: -0.1vw;
+}
+
+.s_t{
+    font-family: 'Content';
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 700;
+    left: 2vw;
+    max-width: 8vw;
+    text-align: center;
+}
+
+.s_s{
+    font-family: 'Content';
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: #666;
+    position: relative;
+    left: 4vw;
+    max-width: 10vw;
+    text-align: center;
+}
+
+/* Section Content */
+
+#cat{
+    display: block;
+    width: 32.5vw;
+    height: 85vh;
+    position: fixed;
+    top: 15vh;
+    left: 50vw;
+    overflow-y: scroll;
+}
+
+.topic{
+    width: 100%;
+    border: solid #999 2.5px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Content;
+    padding: 10px 0px;
+    box-shadow: 0px 4px 0px #999;
+    margin-bottom: 5px;
+    transition: all 0.1s;
+}
+
+.tl{
+    color: #333;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.tn{
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.subtopic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20vh;
+    padding: 0px 2.5vw;
+}
+
+.topic:hover{
+    cursor: pointer;
+}
+.topic:active{
+    transform: translateY(4px);
+    box-shadow: 0px 0px 0px #333;
+}
+
+.si{
+    display: inline-block;
+    width: 5.5vw;
+    margin-right: 2vw;
+}
+.sn{
+    font-family: Content;
+    font-size: 1rem;
+    max-width: 10vw;
+}
+.sn:hover{
+    color: #666;
+    cursor: pointer;
+}
